@@ -1,0 +1,21 @@
+# Default behavior
+# Language detection rules   
+
+*.json linguist-detectable=false
+
+*.jpeg binary
+public/index.html linguist-vendored
+node_modules/* linguist-vendored
+
+public/* linguist-vendored
+*.svg text
+package-lock.json linguist-generated
+
+src/**/*.astro linguist-detectable
+*.astro linguist-detectable
+
+yarn.lock linguist-generated
+
+vendor/* linguist-vendored
+
+# eof 25ef2bcf
